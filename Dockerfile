@@ -2,7 +2,7 @@
 FROM openjdk:11
 
 # Copy the archive into image
-COPY tager/*.jar /app/app.jar
+COPY taget/*.jar /app/app.jar
 
 # Move to app path
 WORKDIR /app
