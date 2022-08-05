@@ -2,7 +2,7 @@
 FROM openjdk:11
 
 # Copy the archive into image
-COPY taget/*.jar /app/app.jar
+COPY taget/spring-petclinic-2.7.0-SNAPSHOT.jar /app/app.jar
 
 # Move to app path
 WORKDIR /app
